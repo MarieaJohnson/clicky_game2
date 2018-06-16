@@ -9,7 +9,8 @@ class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
     flowers,
-    score : 0
+    score : 0,
+    // highScore : 0
   };
 
   shuffleFlowers = () => {
